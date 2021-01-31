@@ -18,7 +18,7 @@ from flask_migrate import Migrate, MigrateCommand
 
 import random
 
-
+# comment added by vahida on 31 jan 2021 to check whether project is connected to github organization repository or not
 app = Flask(__name__)
 app.config.from_pyfile('config.py')
 
